@@ -42,7 +42,7 @@ Again, replace the numeral '4' with the actual value of the related pull request
 Final Review
 ============
 
-When the tests, implementation and documentation are complete create a pull request from your libcellml repository to cellml/libcellml develop branch.  Your libcellml repository should have the correct git submodule references.  
+When the tests, implementation and documentation are complete create a pull request from your libcellml repository to cellml/libcellml develop branch.  Your libcellml repository should have the correct git submodule references.  Buildbot will pick up any changes to the meta repository and run the tests.  The result of the tests will be communicated back to Github through the open pull request and update its status.
 
 When the tests, implementation and documentation are complete use the Buildbot 'tests' builder to submit your changes and confirm your changes work across all build slaves.  See the document :doc:`Buildbot Access <developmentbuildbotaccess>` for acquiring authorisation to use the libCellML Buildbot.
 
