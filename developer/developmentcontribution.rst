@@ -25,7 +25,7 @@ Share Progress
 
 We are following a test driven approach for the libCellML project so the first thing to do is write a test that at least covers some part of the functionality required for the feature you are working on.  Once this first test is written commit your changes and push them to Github so that your work can be shared with the community.
 
-When the first new test is pushed to Github create a pull request against the libcellml-tests develop branch.  We do this so that other developers can comment and make suggestions on your changes.  We want to have an environment of friendly social coding where developers can offer guidance and help minimise wasted effort.
+When the first new test is pushed to Github create a pull request against the libcellml-tests develop branch.  We do this so that other developers can comment and make suggestions on your changes.  We want to have an environment of friendly social coding where developers can offer guidance and thus help minimise wasted effort.
 
 With the tests written and any comments from the community resolved write the implementation code, the implementation code is written into your copy of the libcellml-src repository.  Again commit your code and push the changes to Github.  With the new code on Github create another pull request from your repository to the develop branch in the cellml/libcellml-src repository.  Link this pull request to the pull request added for the tests by adding a comment on the libcellml-tests pull request with the following markup::
 
@@ -41,6 +41,8 @@ Again, replace the numeral '4' with the actual value of the related pull request
 
 Final Review
 ============
+
+When the tests, implementation and documentation are complete create a pull request from your libcellml repository to cellml/libcellml develop branch.  Your libcellml repository should have the correct git submodule references.  
 
 When the tests, implementation and documentation are complete use the Buildbot 'tests' builder to submit your changes and confirm your changes work across all build slaves.  See the document :doc:`Buildbot Access <developmentbuildbotaccess>` for acquiring authorisation to use the libCellML Buildbot.
 
